@@ -45,3 +45,8 @@ application.properties
 # Uploaded files (nếu có thư mục upload)
 uploads/
 
+# SonarQube related files
+.scannerwork/
+sonar-project.properties
+.sonar/
+sonar/
