@@ -29,11 +29,7 @@ nbactions.xml
 .DS_Store
 __MACOSX/
 
-# Database files
-*.db
-*.sql
-# Bao gồm lại file SQL mẫu nếu cần (nếu có file SQL cụ thể trong dự án)
-!/src/main/resources/*.sql
+
 
 # Dependency caches
 /target/
@@ -49,11 +45,3 @@ application.properties
 # Uploaded files (nếu có thư mục upload)
 uploads/
 
-# SonarQube related files
-.scannerwork/
-sonar-project.properties
-.sonar/
-sonar/
-
-# Other temporary or generated files
-*.set
